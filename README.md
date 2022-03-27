@@ -11,13 +11,15 @@
 
 	pip3 install -r Requirements.txt 
 	
-4 : python3 Labeling_Images.py in order to create a folder Containing all the images 
+4 : python3 Labeling_Images.py 
+in order to create a folder Containing all the images 
 
 and create a csv file containing the labels of each image 
 
 PS : Change F_Images_Path , Path *  4 and the position  of the csv file based on your PC 
 
-5 : python3 preprocess_images.py in order to do some Process on the images  .
+5 : python3 preprocess_images.py 
+in order to do some Process on the images  .
 
 The idea is to preprocess the images in order to eliminate the black in the Images that 
 
@@ -30,7 +32,8 @@ The first one is for the generated folder in 4) and the second path is the path 
 the preprocced images 
 
 
-6 : python3 train.py : Change the path in main of Full proceced images and labels.csv 
+6 : python3 train.py
+: Change the path in main of Full proceced images and labels.csv 
 and lunch the train.py 
 
 make_prediction : is the function responsible on predicting the labels .. It can be deployed 
